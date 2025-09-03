@@ -13,6 +13,9 @@ public class TaskA {
             int abilityScoreFour;
             int abilityScoreFive;
 
+            /**
+             * Prompt user for 5 ability scores
+             */
             System.out.print("Enter Ability 1 Score: ");
             abilityScoreOne = scan.nextInt();
             System.out.print("Enter Ability 2 Score: ");
@@ -51,12 +54,6 @@ public class TaskA {
             }
             System.out.println();
 
-            // Prompt for 5 ability scores, then have \o/ for every 10 there, not sure if we worry about not 10s and stuff
-            System.out.println(abilityScoreOne);
-            System.out.println(abilityScoreTwo);
-            System.out.println(abilityScoreThree);
-            System.out.println(abilityScoreFour);
-            System.out.println(abilityScoreFive);
         }
     }
 }
